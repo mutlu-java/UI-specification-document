@@ -1,0 +1,53 @@
+# User Interface Specification Document
+
+## 1. Introduction
+### Purpose
+This document specifies the UI for the user management screen. 
+
+### Scope
+The document covers the components and behavior of the user management interface.
+
+## 2. UI Components Overview
+### New User Button (`+ New User`)
+- **Functionality:** Opens the New User form.
+- **Behavior:** Displays the form fields.
+
+### Hide Disabled User Checkbox
+- **Functionality:** Toggles visibility of disabled users.
+
+### User List Table
+- **Columns:**
+  - **ID**
+  - **User Name**
+  - **Email**
+  - **Enabled**
+- **Sorting:** Clickable column headers for sorting.
+
+### Save User Button
+- **Functionality:** Saves the entered user data.
+
+## 3. New User Form
+### Fields:
+- **Username:** (Text input)
+- **Display Name:** (Text input)
+- **Phone:** (Text input)
+- **Email:** (Text input)
+- **User Roles:** (Dropdown)
+- **Enabled Checkbox:** (Checkbox)
+
+## 4. Page Behavior
+### Initial Display
+- User list loads with all users.
+- Disabled users are hidden if the checkbox is checked.
+
+### Error Handling
+- Display error messages inline.
+
+### Success Handling
+- Show success message and update user list.
+
+## 5. Accessibility Considerations
+- Ensure UI is accessible for users with disabilities.
+
+## 6. Version Control
+- **Repository:** [https://github.com/mutlu-java/UI-specification-document](#)
